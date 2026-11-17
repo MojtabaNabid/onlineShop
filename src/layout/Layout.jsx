@@ -10,7 +10,7 @@ function Layout({ children }) {
   return (
     <div>
       <header className={styles.header}>
-        <Link to={"/products"}>Nik Online Shop</Link>
+        <Link to={"/products"}>Nik's Online Shop</Link>
         <Link to={"/checkout"}>
           <div>
             <PiShoppingCartSimpleBold />

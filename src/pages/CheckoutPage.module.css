@@ -1,0 +1,25 @@
+.emptyBasket {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+
+.emptyBasket p {
+    font-size: 2rem;
+    font-weight: 800;
+    /* color: #fe5d42; */
+    color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 1000px;
+}
+
+.products {
+    width: 100%;
+}
