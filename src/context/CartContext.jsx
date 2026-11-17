@@ -62,6 +62,7 @@ const reducer = (state, action) => {
 };
 
 function CartProvider({ children }) {
+  
   const [state, dispatch] = useReducer(reducer, initialState);
   // console.log(state);
   return (
