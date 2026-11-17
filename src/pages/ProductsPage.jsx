@@ -14,6 +14,8 @@ import styles from "./ProductsPage.module.css";
 import SearchBox from "../components/SearchBox";
 import Sidebar from "../components/Sidebar";
 
+
+
 function ProductsPage() {
   const products = useProducts();
   // console.log(products)
